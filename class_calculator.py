@@ -13,6 +13,9 @@ class Calculator:
         product = number1 * number2
         return product
     #method Divide
+    def divide(self, number1, number2):
+        quotient = number1 / number2
+        return quotient
     #print Sum
     #print Difference
     #print Product
