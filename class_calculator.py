@@ -9,6 +9,9 @@ class Calculator:
         difference = number1 - number2
         return difference
     #method Multiply
+    def multiply(self, number1 , number2):
+        product = number1 * number2
+        return product
     #method Divide
     #print Sum
     #print Difference
