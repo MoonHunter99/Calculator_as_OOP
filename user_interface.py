@@ -10,5 +10,6 @@ class UserInterface:
         return number
     #method for asking the what to do in calculator
     def ask_operation(self):
+        print("\nChoices:\n1.) add or +\n2.) minus or -\n3.) multiply or *\n4.)divide or /\n")
         operation = input("What is the desired operation?: ")
         return operation
