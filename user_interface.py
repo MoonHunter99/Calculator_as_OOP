@@ -6,6 +6,9 @@ class UserInterface:
         print("\033[1;39m `"* 112)
     #method getting the number
     def ask_number(self):
-        number = float(input("What is your deired number?: "))
+        number = float(input("What is your desired number?: "))
         return number
     #method for asking the what to do in calculator
+    def ask_operation(self):
+        operation = input("What is the desired operation?: ")
+        return operation
