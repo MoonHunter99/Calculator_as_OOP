@@ -22,3 +22,12 @@ class DanielCalculator(Calculator , UserInterface):
             return product
         except ValueError:
             print("Your input must be a integer")
+    
+    def divide(self, number1, number2):
+        try:
+            quotient = number1 / number2
+            return quotient
+        except ValueError:
+            print("Your input must be a integer")
+        except ZeroDivisionError:
+            print("You are dividing by Zero")
