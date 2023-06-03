@@ -15,3 +15,10 @@ class DanielCalculator(Calculator , UserInterface):
             return difference
         except ValueError:
             print("Your input must be a integer")
+    
+    def multiply(self, number1 , number2):
+        try:
+            product = number1 * number2
+            return product
+        except ValueError:
+            print("Your input must be a integer")
